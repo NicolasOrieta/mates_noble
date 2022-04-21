@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "montserrat Bold";
+    src: url(../font/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+@font-face{
+    font-family: "montserrat Semibold";
+    src: url(../font/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "montserrat Medium";
+    src: url(../font/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: "montserrat Regular";
+    src: url(../font/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "montserrat Light";
+    src: url(../font/Montserrat/static/Montserrat-Light.ttf);
+}
+
+html{
+    font-size: 62.5%;}
+
+body{
+    font-size: 2rem;
+    font-family: "montserrat Regular", sans-serif;
+}
+
+/*termina general pagina*/
+
+/*empieza Nav*/
+
+.grilla__Index{
+    display: grid;
+    grid-template-areas: 
+        "header header header header"
+        "fondo fondo fondo fondo"
+        "main main main sec"
+        "sec4 sec4 sec4 sec"
+        "footer footer footer footer";
+        grid-template-columns: repeat(4, 1fr);
+}
+
+header{
+    background-color: #1a6e2478;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu ul li{
+    padding: 15px;
+}
+
+.menu ul li a{
+    font-family: "montserrat Semibold";
+    list-style: none;
+    text-decoration: none;
+    color: #346334;
+    text-shadow: 1px 1px 1px #f5f5f5;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.menu ul li a:hover{
+    color: #f5f5f5;
+    transition: 0.5s;
+}
+
+.paginasInternas{
+
+}
+
+.paginasInternas li{
+    font-size: small;
+}
+
+/*termina Nav*/
+
+/*empieza pagina Index*/
+
+.banner{
+    background-image: url("../images/portada1.jpg");
+    width: 382px;
+    grid-area: fondo;
+}
+
+main{
+    grid-area: main;
+}
+
+h4{
+    color: #19582092;
+    padding-top: 30px;
+    margin-left: 80px;
+    font-family: "montserrat Medium";
+    padding-bottom: 25px;
+}
+
+h5{
+    font-family: "montserrat Medium";
+    background-color: #407d4792;
+    color: #1e2b2092;
+    text-align: center;
+}
+
+.section__Tip1 > div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around
+}
+
+.section__Tip1 > div img{
+    width: 200px;
+    height: 350px;
+    border-radius: 25px;
+}
+
+.section__Tip1 div .tituloParrafo{
+    margin: 40px;
+}
+
+.section__Tip2 > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.section__Tip2 > div img{
+    width: 200px;
+    height: 350px;
+    border-radius: 25px;
+}
+
+.section__Tip2 div .tituloParrafo{
+    margin: 40px;
+}
+
+.section__Img{
+    grid-area: sec;
+    background-color: rgba(32, 102, 41, 0.805);
+}
+
+.section__Img > img{
+    width: 270px;
+    height: 400px;
+    border-radius: 25px;
+    justify-self: center;
+    align-self: center;
+}
+
+.section__Tip4{
+    grid-area: sec4;
+}
+
+.section__Tip4 > div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.section__Tip4 > div iframe{
+    width: 560px;
+    height: 315px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #21562778;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.section__Tip4 div .tituloParrafo{
+    margin: 40px;
+}
+
+.tituloParrafo ul li{
+    list-style: none;
+    font-family: "montserrat Regular";
+    font-size: medium;
+}
+
+p{
+    font-family: "montserrat Regular";
+    font-size: medium;
+    margin-top: 25px;
+}
+
+/*termina pagina Index*/
+
+/*empieza pagina Productos*/
+
+.contenedor__Productos__Mates{
+    display: grid;
+    grid-template-areas: 
+        "card1 card2 card3 card4"
+        "card5 card6 card7 card8";
+    grid-template-columns: repeat(4, 20%);
+    grid-gap: 2rem;
+    background-color: rgba(118, 118, 118, 0.579);
+    width: 80%;
+    margin-left: 150px;
+    padding: 15px 0px 20px 5px;
+    justify-content: center;
+}
+
+.productos__Mates__Img{
+    margin-left: 40px;
+}
+
+.contenedor__Productos__Mates div p{
+    font-family: "montserrat Regular";
+    font-size: small;
+}
+
+.contenedor__Productos__Mates div h5{
+    font-family: "montserrat Semibold";
+    font-size: large;
+    color: black;
+}
+
+.card1{
+    grid-area: card1;
+    justify-self: center;
+}
+
+.card2{
+    grid-area: card2;
+    justify-self: center;
+}
+
+.card3{
+    grid-area: card3;
+    justify-self: center;
+}
+
+.card4{
+    grid-area: card4;
+    justify-self: center;
+}
+
+.card5{
+    grid-area: card5;
+    justify-self: center;
+}
+
+.card6{
+    grid-area: card6;
+    justify-self: center;
+}
+
+.card7{
+    grid-area: card7;
+    justify-self: center;
+}
+
+.card8{
+    grid-area: card8;
+    justify-self: center;
+}
+
+/*termina pagina Productos*/
+
+/*empieza pagina Combos*/
+
+.combos__Img{
+    width: 400px;
+    height: 650;
+    border-radius: 20px;
+    margin: 50px 50px 50px 50px;
+}
+
+.combos__Texto{
+    font-family: "montserrat Regular";
+    font-size: medium;
+    display: inline;
+    position: relative;
+    bottom: 500px;
+}
+
+/*termina pagina Combos*/
+
+/*empieza pagina Nosotros*/
+
+.nosotrosSection{
+    background-color: #0e3e1495;
+    width: 450px;
+    height: 700px;
+}
+
+.nosotrosImg1{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    left: 45px;
+    top: 60px;
+}
+
+.nosotrosTitulo{
+    font-family: "montserrat Bold";
+    font-size: x-large;
+    color: #13501ada;
+    display: inline;
+    position: relative;
+    left: 900px;
+    bottom: 580px;
+}
+
+/*termina pagina Nosotros*/
+
+/*empieza pagina Contacto*/
+
+fieldset{
+    padding-left: 15px;
+    margin: 15px 15px 15px 20px;
+    width: 520px;
+}
+
+.fieldset__Titulo{
+    font-family: "montserrat Medium";
+    font-weight: bolder;
+    margin: 20px 10px 10px 10px;
+}
+
+div label{
+    font-family: "montserrat Regular";
+    font-weight: bold;
+    font-size: medium;
+}
+
+textarea{
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fieldset__Boton{
+    background-color: #13501ada;
+    border-radius: 10px;
+    border-color: #19582000;
+    color: white;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+/*termina Pagina Contacto*/
+
+/*empieza el Footer*/
+
+footer{
+    background-color: #1a6e2478;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-area: footer;
+}
+
+.footerLogo{
+
+}
+
+.footerTitulos__Contacto{
+    font-family: "montserrat Semibold";
+    font-size: medium;
+    margin-left: 20px;
+}
+
+.footerTitulos__RRHH{
+    font-family: "montserrat Semibold";
+    font-size: medium;
+    margin-left: 30px;
+}
+
+footer div ul li{
+    font-family: "montserrat Regular";
+    font-size: small;
+    font-weight: lighter;
+    line-height: 2;
+    list-style: none;
+}
+
+.redes{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footerFirma{
+    font-family: "montserrat Light";
+    font-size: small;
+}
+
+@media (max-width: 360px){
+    .grilla__Index{
+        grid-template-areas: 
+                            "header header header"
+                            "fondo fondo fondo"
+                            "main main main"
+                            "sec sec sec"
+                            "sec4 sec4 sec4"
+                            "footer footer footer";
+    }
+}
+
+@media (max-width: 360px){
+    .contenedor__Productos__Mates{
+        grid-template-areas: 
+                            "card1"
+                            "card2"
+                            "card3"
+                            "card4"
+                            "card5"
+                            "card6"
+                            "card7"
+                            "card8";
+    }
+}
