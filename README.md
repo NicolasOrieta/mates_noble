@@ -1,4 +1,4 @@
-<img src="images/Variable-2.png" width="100" height="100">
+<img src="images/Variable-2.png" width="150" height="150">
 
 # Mates Noble
 
