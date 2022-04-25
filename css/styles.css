@@ -53,7 +53,7 @@ body{
 }
 
 header{
-    background-color: #1a6e2478;
+    background-image: linear-gradient(to right, rgb(154, 204, 154), rgb(44, 89, 44));
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -118,7 +118,7 @@ h4{
 
 h5{
     font-family: "montserrat Medium";
-    background-color: #407d4792;
+    background-image: linear-gradient(to left, rgba(118, 118, 118, 0.396), rgba(17, 104, 17, 0.622));
     color: #1e2b2092;
     text-align: center;
 }
@@ -166,6 +166,7 @@ h5{
     border-radius: 25px;
     justify-self: center;
     align-self: center;
+    transform: rotate(15deg);
 }
 
 .section__Tip4{
