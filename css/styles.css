@@ -108,6 +108,21 @@ main{
     grid-area: main;
 }
 
+#titulo__Tips{
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 h4{
     color: #19582092;
     padding-top: 30px;
@@ -167,6 +182,11 @@ h5{
     justify-self: center;
     align-self: center;
     transform: rotate(15deg);
+    transition: height 2s;
+}
+
+.section__Img > img:hover{
+    height: 500px;
 }
 
 .section__Tip4{
