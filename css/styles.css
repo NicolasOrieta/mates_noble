@@ -42,14 +42,14 @@ body{
 /*empieza Nav*/
 
 .grilla__Index{
-    display: grid;
+    /*display: grid;
     grid-template-areas: 
         "header header header header"
         "fondo fondo fondo fondo"
         "main main main sec"
         "sec4 sec4 sec4 sec"
         "footer footer footer footer";
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);*/
 }
 
 header{
@@ -101,11 +101,11 @@ header{
 .banner{
     background-image: url("../images/portada1.jpg");
     width: 382px;
-    grid-area: fondo;
+    /*grid-area: fondo;*/
 }
 
 main{
-    grid-area: main;
+    /*grid-area: main;*/
 }
 
 #titulo__Tips{
@@ -136,12 +136,17 @@ h5{
     background-image: linear-gradient(to left, rgba(118, 118, 118, 0.396), rgba(17, 104, 17, 0.622));
     color: #1e2b2092;
     text-align: center;
+    display: block;
+}
+
+.primerTip{
+    margin-bottom: 25px;
 }
 
 .section__Tip1 > div{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around
+    /*justify-content: space-around*/
 }
 
 .section__Tip1 > div img{
@@ -157,7 +162,7 @@ h5{
 .section__Tip2 > div{
     display: flex;
     flex-direction: row;
-    justify-content: space-around
+    /*justify-content: space-around*/
 }
 
 .section__Tip2 > div img{
@@ -167,25 +172,24 @@ h5{
 }
 
 .section__Tip2 div .tituloParrafo{
-    margin: 40px;
+    /*margin: 40px;*/
 }
 
 .section__Img{
-    grid-area: sec;
+    /*grid-area: sec;*/
     background-color: rgba(32, 102, 41, 0.805);
 }
 
-.section__Img > img{
-    width: 270px;
-    height: 400px;
+.imagen__Tips{
+    width: 250px;
+    height: 350px;
     border-radius: 25px;
-    justify-self: center;
-    align-self: center;
-    transform: rotate(15deg);
+    /*justify-self: center;
+    align-self: center;*/
     transition: height 2s;
 }
 
-.section__Img > img:hover{
+.imagen__Tips:hover{
     height: 500px;
 }
 
@@ -194,9 +198,10 @@ h5{
 }
 
 .section__Tip4 > div{
-    display: flex;
+    margin-top: 25px;
+    /*display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-around;*/
 }
 
 .section__Tip4 > div iframe{
@@ -211,12 +216,14 @@ h5{
 
 .section__Tip4 div .tituloParrafo{
     margin: 40px;
+    display: inline;
 }
 
 .tituloParrafo ul li{
     list-style: none;
     font-family: "montserrat Regular";
     font-size: medium;
+    margin-top: 25px;
 }
 
 p{
@@ -230,12 +237,12 @@ p{
 /*empieza pagina Productos*/
 
 .contenedor__Productos__Mates{
-    display: grid;
+    /*display: grid;
     grid-template-areas: 
         "card1 card2 card3 card4"
         "card5 card6 card7 card8";
     grid-template-columns: repeat(4, 20%);
-    grid-gap: 2rem;
+    grid-gap: 2rem;*/
     background-color: rgba(118, 118, 118, 0.579);
     width: 80%;
     margin-left: 150px;
@@ -244,7 +251,7 @@ p{
 }
 
 .productos__Mates__Img{
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .contenedor__Productos__Mates div p{
@@ -260,42 +267,42 @@ p{
 
 .card1{
     grid-area: card1;
-    justify-self: center;
+    /*justify-self: center;*/
 }
 
 .card2{
     grid-area: card2;
-    justify-self: center;
+    /*justify-self: center;*/
 }
 
 .card3{
     grid-area: card3;
-    justify-self: center;
+    /*justify-self: center;*/
 }
 
 .card4{
     grid-area: card4;
-    justify-self: center;
+    /*justify-self: center;*/
 }
 
 .card5{
     grid-area: card5;
-    justify-self: center;
+    /*justify-self: center;*/
 }
 
 .card6{
     grid-area: card6;
-    justify-self: center;
+    /*justify-self: center;*/
 }
 
 .card7{
     grid-area: card7;
-    justify-self: center;
+    /*justify-self: center;*/
 }
 
 .card8{
     grid-area: card8;
-    justify-self: center;
+    /*justify-self: center;*/
 }
 
 /*termina pagina Productos*/
@@ -389,11 +396,11 @@ textarea{
 
 footer{
     background-color: #1a6e2478;
-    display: flex;
+    /*display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    grid-area: footer;
+    grid-area: footer;*/
 }
 
 .footerLogo{
@@ -403,13 +410,14 @@ footer{
 .footerTitulos__Contacto{
     font-family: "montserrat Semibold";
     font-size: medium;
-    margin-left: 20px;
+
+    /*margin-left: 20px;*/
 }
 
 .footerTitulos__RRHH{
     font-family: "montserrat Semibold";
     font-size: medium;
-    margin-left: 30px;
+    /*margin-left: 30px;*/
 }
 
 footer div ul li{
@@ -431,7 +439,7 @@ footer div ul li{
     font-size: small;
 }
 
-@media (max-width: 360px){
+/*@media (max-width: 360px){
     .grilla__Index{
         grid-template-areas: 
                             "header header header"
@@ -455,4 +463,4 @@ footer div ul li{
                             "card7"
                             "card8";
     }
-}
+}*/
