@@ -52,7 +52,36 @@ body{
         grid-template-columns: repeat(4, 1fr);*/
 }
 
-header{
+.nav__Menu{
+    justify-content: end;
+    margin-right: 100px;
+}
+
+.navpages{
+    background-color: #1a6e2478;
+}
+
+.nav__Links{
+    font-family: "montserrat Semibold";
+    list-style: none;
+    text-decoration: none;
+    color: rgb(76, 136, 76);
+    text-shadow: 1px 1px 1px #f5f5f5;
+    text-transform: uppercase;
+    font-size: large;
+    padding-right: 25px;
+}
+
+.nav__Links > a:hover{
+    color: #f5f5f5;
+    transition: 0.5s;
+}
+
+.nav__Submenu{
+    font-size: small;
+}
+
+/*header{
     background-image: linear-gradient(to right, rgb(154, 204, 154), rgb(44, 89, 44));
     display: flex;
     flex-direction: row;
@@ -92,7 +121,7 @@ header{
 
 .paginasInternas li{
     font-size: small;
-}
+}*/
 
 /*termina Nav*/
 

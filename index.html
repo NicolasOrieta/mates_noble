@@ -9,9 +9,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div class="container-fluid">
-      <header class="row">
-        <a href="index.html"><img src="images/Variable-1.png" alt="Mates Noble" class="col-lg-1"></a><!-- width="180" height="180"-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navpages container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="images/Variable-1.png" alt="Mates Noble" width="180" height="180"></a>
+        <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>!-->
+        <div class="nav__Menu collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <!--<li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pages/productos.html">Productos</a>
+            </li>!-->
+            <li class="nav__Links nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="pages/productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="nav__Submenu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="pages/productos.html">Mates</a></li>
+                <li><a class="dropdown-item" href="pages/productos.html">Bombillas</a></li>
+                <li><a class="dropdown-item" href="pages/productos.html">Accesorios</a></li>
+              </ul>
+            </li>
+            <li class="nav__Links nav-item">
+              <a class="nav-link active" href="pages/combos.html">Combos</a>
+            </li>
+            <li class="nav__Links nav-item">
+              <a class="nav-link active" href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav__Links nav-item">
+              <a class="nav-link active" href="pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <!--<header class="row">
+        <a href="index.html"><img src="images/Variable-1.png" alt="Mates Noble" class="col-lg-1"></a> width="180" height="180"
         <div class="paginas col-lg-11">
           <nav class="menu">
             <ul>
@@ -28,8 +61,9 @@
             </ul>  
           </nav>
         </div>
-      </header>
+      </header>-->
     <!--Acá comienza el contenido de la pagina-->
+    <div class="container-fluid"></div>
       <section class="banner">
         <img src="images/portada1.jpg" alt="Mates Noble" title="Imagen Mates Noble" width="800px"><!--width="1519px"-->
       </section>
