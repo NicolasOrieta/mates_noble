@@ -165,7 +165,6 @@ h5{
     background-image: linear-gradient(to left, rgba(118, 118, 118, 0.396), rgba(17, 104, 17, 0.622));
     color: #1e2b2092;
     text-align: center;
-    display: block;
 }
 
 .primerTip{
@@ -173,8 +172,8 @@ h5{
 }
 
 .section__Tip1 > div{
-    display: flex;
-    flex-direction: row-reverse;
+    /*display: flex;
+    flex-direction: row-reverse;*/
     /*justify-content: space-around*/
 }
 
@@ -189,8 +188,8 @@ h5{
 }
 
 .section__Tip2 > div{
-    display: flex;
-    flex-direction: row;
+    /*display: flex;
+    flex-direction: row;*/
     /*justify-content: space-around*/
 }
 
@@ -245,7 +244,7 @@ h5{
 
 .section__Tip4 div .tituloParrafo{
     margin: 40px;
-    display: inline;
+    
 }
 
 .tituloParrafo ul li{
@@ -271,16 +270,16 @@ p{
         "card1 card2 card3 card4"
         "card5 card6 card7 card8";
     grid-template-columns: repeat(4, 20%);
-    grid-gap: 2rem;*/
+    grid-gap: 2rem;
     background-color: rgba(118, 118, 118, 0.579);
     width: 80%;
     margin-left: 150px;
     padding: 15px 0px 20px 5px;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 .productos__Mates__Img{
-    margin-left: 50px;
+    /*margin-left: 50px;*/
 }
 
 .contenedor__Productos__Mates div p{
@@ -295,43 +294,43 @@ p{
 }
 
 .card1{
-    grid-area: card1;
-    /*justify-self: center;*/
+    /*grid-area: card1;
+    justify-self: center;*/
 }
 
 .card2{
-    grid-area: card2;
-    /*justify-self: center;*/
+    /*grid-area: card2;
+    justify-self: center;*/
 }
 
 .card3{
-    grid-area: card3;
-    /*justify-self: center;*/
+    /*grid-area: card3;
+    justify-self: center;*/
 }
 
 .card4{
-    grid-area: card4;
-    /*justify-self: center;*/
+    /*grid-area: card4;
+    justify-self: center;*/
 }
 
 .card5{
-    grid-area: card5;
-    /*justify-self: center;*/
+    /*grid-area: card5;
+    justify-self: center;*/
 }
 
 .card6{
-    grid-area: card6;
-    /*justify-self: center;*/
+    /*grid-area: card6;
+    justify-self: center;*/
 }
 
 .card7{
-    grid-area: card7;
-    /*justify-self: center;*/
+    /*grid-area: card7;
+    justify-self: center;*/
 }
 
 .card8{
-    grid-area: card8;
-    /*justify-self: center;*/
+    /*grid-area: card8;
+    justify-self: center;*/
 }
 
 /*termina pagina Productos*/

@@ -11,15 +11,20 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="navpages container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="images/Variable-1.png" alt="Mates Noble" width="180" height="180"></a>
+        <div class="row">
+          <a class="navbar-brand col-lg-3 col-md-12 col-sm-12" href="index.html"><img src="images/Variable-1.png" alt="Mates Noble" width="180" height="180"></a>
+        </div>
         <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>!-->
-        <div class="nav__Menu collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="nav__Menu collapse navbar-collapse col-lg-9 col-sm-12 col-sm-12" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <!--<li class="nav-item">
               <a class="nav-link active" aria-current="page" href="pages/productos.html">Productos</a>
             </li>!-->
+            <li class="nav__Links nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
             <li class="nav__Links nav-item dropdown">
               <a class="nav-link active dropdown-toggle" href="pages/productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Productos
@@ -63,24 +68,26 @@
         </div>
       </header>-->
     <!--Acá comienza el contenido de la pagina-->
-    <div class="container-fluid"></div>
-      <section class="banner">
-        <img src="images/portada1.jpg" alt="Mates Noble" title="Imagen Mates Noble" width="800px"><!--width="1519px"-->
-      </section>
+    <div class="container-fluid">
+      <!--<section class="banner">
+        <img src="images/portada1.jpg" alt="Mates Noble" title="Imagen Mates Noble" width="800px"><width="1519px"
+      </section>-->
       <main class="primerTip row">
-        <h4 id="titulo__Tips">Tips Mates Noble</h4>
-        <section class="section__Tip1 col-lg-10">
+        <h4 class="col-sm-12" id="titulo__Tips">Tips Mates Noble</h4>
+        <section class="section__Tip1 col-lg-10 col-md-8 col-sm-12">
           <div class="tituloParrafo">
-            <h5>Cómo curar tu mate</h5>
+            <div>
+              <h5>Cómo curar tu mate</h5>
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vero deserunt hic fugiat, nobis eum, facilis necessitatibus similique dolores, pariatur praesentium assumenda quibusdam cumque qui! Quos perspiciatis minus neque consectetur.
             </p>
           </div>
         </section>
-        <img src="images/TIP2.jpg" alt="Tip MN" title="Tip Mates Noble" class="imagen__Tips col-lg-2">
+        <img src="images/TIP2.jpg" alt="Tip MN" title="Tip Mates Noble" class="imagen__Tips col-lg-2 col-md-4 col-sm-12">
       </main>
       <main class="row"> 
-        <section class="section__Tip2 col-lg-10">
+        <section class="section__Tip2 col-lg-10 col-md-8 col-sm-12">
           <div class="tituloParrafo">
             <h5>Cómo limpiar tus bombillas</h5>
             <p>
@@ -89,13 +96,13 @@
             </p>
           </div>
         </section>
-        <img src="images/TIP1.jpg" alt="Tip MN" title="Tip Mates Noble" class="imagen__Tips col-lg-2">  
+        <img src="images/TIP1.jpg" alt="Tip MN" title="Tip Mates Noble" class="imagen__Tips col-lg-2 col-md-4 col-sm-12">  
       </main>
       <section class="section__Tip4 row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-8 col-sm-12">
           <iframe src="https://www.youtube.com/embed/0QMZvUnpr5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="tituloParrafo col-lg-6">
+        <div class="tituloParrafo col-lg-6 col-md-4 col-sm-12">
           <h5>Cómo cebar un Mate</h5>
           <ul>
             <li>- Agregar 3/4 de yerba al mate</li>
@@ -109,25 +116,27 @@
       </section>
     <!--Termina el contenido-->
       <footer class="row">
-        <a href="index.html"><img src="images/Variable-1.png" alt="Mates Noble" class="footerLogo col-lg-1"></a> <!-- width="150" height="150" -->
-        <div class="footerTitulos__Contacto col-lg-2">Contacto
+        <div  class="col-lg-2 col-md-2 col-sm-12">
+          <a href="index.html"><img src="images/Variable-1.png" alt="Mates Noble" width="150" height="150"></a> <!-- width="150" height="150" -->
+        </div>
+        <div class="footerTitulos__Contacto col-lg-2 col-md-3 col-sm-6">Contacto
           <ul class="footerLista1">
             <li>mates@noble.com.ar</li>
             <li>+54 12-3456-7890</li>
           </ul>
         </div>
-        <div class="footerTitulos__RRHH col-lg-2">RRHH
+        <div class="footerTitulos__RRHH col-lg-2 col-md-2 col-sm-6">RRHH
           <ul class="footerLista2">
             <li>Trabaja con nosotros</li>
             <LI>rrhh@noble.com.ar</LI>
           </ul>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <img src="images/descarga.png" alt="facebook" class="redes">
           <img src="images/instagram.png" alt="instagram" class="redes">
           <img src="images/whatsapp.png" alt="whatsapp" class="redes">
         </div>
-        <p class="footerFirma col-lg-2">Diseñado y desarrollado por Nicolás Orieta</p>
+        <p class="footerFirma col-lg-3 col-md-2 col-sm-12">Diseñado y desarrollado por Nicolás Orieta</p>
       </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
