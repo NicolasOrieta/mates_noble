@@ -1,34 +1,14 @@
+@import "index.scss";
 @import "pages/productos";
 @import "pages/combos";
 @import "pages/nosotros";
 @import "pages/contacto";
 
-@import "nav/nav";
+@import "layout/nav";
+@import "layout/footer";
 
-@font-face {
-    font-family: "montserrat Bold";
-    src: url(../font/Montserrat/static/Montserrat-Bold.ttf);
-}
-
-@font-face{
-    font-family: "montserrat Semibold";
-    src: url(../font/Montserrat/static/Montserrat-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: "montserrat Medium";
-    src: url(../font/Montserrat/static/Montserrat-Medium.ttf);
-}
-
-@font-face {
-    font-family: "montserrat Regular";
-    src: url(../font/Montserrat/static/Montserrat-Regular.ttf);
-}
-
-@font-face {
-    font-family: "montserrat Light";
-    src: url(../font/Montserrat/static/Montserrat-Light.ttf);
-}
+@import "recursos/tipografia";
+@import "recursos/variables";
 
 html{
     font-size: 62.5%;}

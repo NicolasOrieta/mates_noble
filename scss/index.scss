@@ -1,0 +1,132 @@
+$verde-claro: #8de19b;
+$verde-oscuro: #178c38;
+$verde-fondo: #d7fada;
+$negro: #141414;
+
+#titulo__Tips{
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+h4{
+    color: $verde-oscuro;
+    padding-top: 30px;
+    margin-left: 80px;
+    font-family: "montserrat Medium";
+    padding-bottom: 25px;
+}
+
+h5{
+    font-family: "montserrat Medium";
+    background-image: linear-gradient(to left, rgba(118, 118, 118, 0.396), rgba(17, 104, 17, 0.622));
+    color: $negro;
+    text-align: center;
+}
+
+.primerTip{
+    margin-bottom: 25px;
+}
+
+.section__Tip1{
+    div{
+        img{
+            width: 200px;
+            height: 350px;
+            border-radius: 25px;
+        }
+    }
+}
+
+.section__Tip1{
+    div{
+        .tituloParrafo{
+            margin: 40px;
+        }
+    }
+}
+
+.section__Tip2{
+    div{
+        img{
+            width: 200px;
+            height: 350px;
+            border-radius: 25px;
+        }
+    }
+}
+
+.section__Img{
+    background-color: $verde-oscuro;
+}
+
+.imagen__Tips{
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    transition: height 2s;
+}
+
+.imagen__Tips{
+    &:hover{
+        height: 500px;
+    }
+}
+
+.section__Tip4{
+    grid-area: sec4;
+}
+
+.section__Tip4{
+    div{
+        margin-top: 25px;
+    }
+}
+
+.section__Tip4{
+    div{
+        iframe{
+            width: 560px;
+            height: 315px;
+            border-style: solid;
+            border-width: 5px;
+            border-color: $verde-oscuro;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+.section__Tip4{
+    div{
+        .tituloParrafo{
+            margin-top: 40px;
+        }
+    }
+}
+
+.tituloParrafo{
+    ul{
+        li{
+            list-style: none;
+            font-family: "montserrat Regular";
+            font-size: medium;
+            margin-top: 25px;
+        }
+    }
+}
+
+p{
+    font-family: "montserrat Regular";
+    font-size: medium;
+    margin-top: 25px;
+}

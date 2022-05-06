@@ -1,36 +1,3 @@
-@font-face {
-    font-family: "montserrat Bold";
-    src: url(../font/Montserrat/static/Montserrat-Bold.ttf);
-}
-
-@font-face{
-    font-family: "montserrat Semibold";
-    src: url(../font/Montserrat/static/Montserrat-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: "montserrat Medium";
-    src: url(../font/Montserrat/static/Montserrat-Medium.ttf);
-}
-
-@font-face {
-    font-family: "montserrat Regular";
-    src: url(../font/Montserrat/static/Montserrat-Regular.ttf);
-}
-
-@font-face {
-    font-family: "montserrat Light";
-    src: url(../font/Montserrat/static/Montserrat-Light.ttf);
-}
-
-html{
-    font-size: 62.5%;}
-
-body{
-    font-size: 2rem;
-    font-family: "montserrat Regular", sans-serif;
-}
-
 /*termina general pagina*/
 
 /*empieza Nav*/
@@ -44,35 +11,6 @@ body{
         "sec4 sec4 sec4 sec"
         "footer footer footer footer";
         grid-template-columns: repeat(4, 1fr);*/
-}
-
-.nav__Menu{
-    justify-content: end;
-    margin-right: 100px;
-}
-
-.navpages{
-    background-color: #1a6e2478;
-}
-
-.nav__Links{
-    font-family: "montserrat Semibold";
-    list-style: none;
-    text-decoration: none;
-    color: rgb(76, 136, 76);
-    text-shadow: 1px 1px 1px #f5f5f5;
-    text-transform: uppercase;
-    font-size: large;
-    padding-right: 25px;
-}
-
-.nav__Links > a:hover{
-    color: #f5f5f5;
-    transition: 0.5s;
-}
-
-.nav__Submenu{
-    font-size: small;
 }
 
 /*header{
@@ -121,138 +59,7 @@ body{
 
 /*empieza pagina Index*/
 
-.banner{
-    background-image: url("../images/portada1.jpg");
-    width: 382px;
-    /*grid-area: fondo;*/
-}
 
-main{
-    /*grid-area: main;*/
-}
-
-#titulo__Tips{
-    animation-duration: 4s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
-
-@keyframes aparecer{
-    0% {
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-h4{
-    color: #19582092;
-    padding-top: 30px;
-    margin-left: 80px;
-    font-family: "montserrat Medium";
-    padding-bottom: 25px;
-}
-
-h5{
-    font-family: "montserrat Medium";
-    background-image: linear-gradient(to left, rgba(118, 118, 118, 0.396), rgba(17, 104, 17, 0.622));
-    color: #1e2b2092;
-    text-align: center;
-}
-
-.primerTip{
-    margin-bottom: 25px;
-}
-
-.section__Tip1 > div{
-    /*display: flex;
-    flex-direction: row-reverse;*/
-    /*justify-content: space-around*/
-}
-
-.section__Tip1 > div img{
-    width: 200px;
-    height: 350px;
-    border-radius: 25px;
-}
-
-.section__Tip1 div .tituloParrafo{
-    margin: 40px;
-}
-
-.section__Tip2 > div{
-    /*display: flex;
-    flex-direction: row;*/
-    /*justify-content: space-around*/
-}
-
-.section__Tip2 > div img{
-    width: 200px;
-    height: 350px;
-    border-radius: 25px;
-}
-
-.section__Tip2 div .tituloParrafo{
-    /*margin: 40px;*/
-}
-
-.section__Img{
-    /*grid-area: sec;*/
-    background-color: rgba(32, 102, 41, 0.805);
-}
-
-.imagen__Tips{
-    width: 250px;
-    height: 350px;
-    border-radius: 25px;
-    /*justify-self: center;
-    align-self: center;*/
-    transition: height 2s;
-}
-
-.imagen__Tips:hover{
-    height: 500px;
-}
-
-.section__Tip4{
-    grid-area: sec4;
-}
-
-.section__Tip4 > div{
-    margin-top: 25px;
-    /*display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;*/
-}
-
-.section__Tip4 > div iframe{
-    width: 560px;
-    height: 315px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #21562778;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.section__Tip4 div .tituloParrafo{
-    margin: 40px;
-    
-}
-
-.tituloParrafo ul li{
-    list-style: none;
-    font-family: "montserrat Regular";
-    font-size: medium;
-    margin-top: 25px;
-}
-
-p{
-    font-family: "montserrat Regular";
-    font-size: medium;
-    margin-top: 25px;
-}
 
 /*termina pagina Index*/
 
@@ -274,17 +81,6 @@ p{
 
 .productos__Mates__Img{
     /*margin-left: 50px;*/
-}
-
-.contenedor__Productos__Mates div p{
-    font-family: "montserrat Regular";
-    font-size: small;
-}
-
-.contenedor__Productos__Mates div h5{
-    font-family: "montserrat Semibold";
-    font-size: large;
-    color: black;
 }
 
 .card1{
@@ -331,135 +127,24 @@ p{
 
 /*empieza pagina Combos*/
 
-.combos__Img{
-    width: 400px;
-    height: 650;
-    border-radius: 20px;
-    margin: 50px 50px 50px 50px;
-}
 
-.combos__Texto{
-    font-family: "montserrat Regular";
-    font-size: medium;
-    display: inline;
-    position: relative;
-    bottom: 500px;
-}
 
 /*termina pagina Combos*/
 
 /*empieza pagina Nosotros*/
 
-.nosotrosSection{
-    background-color: #0e3e1495;
-    width: 450px;
-    height: 700px;
-}
-
-.nosotrosImg1{
-    width: 350px;
-    height: 500px;
-    position: relative;
-    left: 45px;
-    top: 60px;
-}
-
-.nosotrosTitulo{
-    font-family: "montserrat Bold";
-    font-size: x-large;
-    color: #13501ada;
-    display: inline;
-    position: relative;
-    left: 900px;
-    bottom: 580px;
-}
 
 /*termina pagina Nosotros*/
 
 /*empieza pagina Contacto*/
 
-fieldset{
-    padding-left: 15px;
-    margin: 15px 15px 15px 20px;
-    width: 520px;
-}
 
-.fieldset__Titulo{
-    font-family: "montserrat Medium";
-    font-weight: bolder;
-    margin: 20px 10px 10px 10px;
-}
-
-div label{
-    font-family: "montserrat Regular";
-    font-weight: bold;
-    font-size: medium;
-}
-
-textarea{
-    width: 500px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.fieldset__Boton{
-    background-color: #13501ada;
-    border-radius: 10px;
-    border-color: #19582000;
-    color: white;
-    margin-bottom: 15px;
-    width: 100px;
-    height: 30px;
-}
 
 /*termina Pagina Contacto*/
 
 /*empieza el Footer*/
 
-footer{
-    background-color: #1a6e2478;
-    /*display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    grid-area: footer;*/
-}
 
-.footerLogo{
-
-}
-
-.footerTitulos__Contacto{
-    font-family: "montserrat Semibold";
-    font-size: medium;
-
-    /*margin-left: 20px;*/
-}
-
-.footerTitulos__RRHH{
-    font-family: "montserrat Semibold";
-    font-size: medium;
-    /*margin-left: 30px;*/
-}
-
-footer div ul li{
-    font-family: "montserrat Regular";
-    font-size: small;
-    font-weight: lighter;
-    line-height: 2;
-    list-style: none;
-}
-
-.redes{
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-}
-
-.footerFirma{
-    font-family: "montserrat Light";
-    font-size: small;
-}
 
 /*@media (max-width: 360px){
     .grilla__Index{

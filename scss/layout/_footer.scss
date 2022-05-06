@@ -1,0 +1,43 @@
+$verde-claro: #8de19b;
+$verde-oscuro: #178c38;
+$verde-fondo: #d7fada;
+$negro: #141414;
+
+footer{
+    background-color: $verde-claro;
+}
+
+.footerTitulos__Contacto{
+    font-family: "montserrat Semibold";
+    font-size: medium;
+}
+
+.footerTitulos__RRHH{
+    font-family: "montserrat Semibold";
+    font-size: medium;
+}
+
+footer{
+    div{
+        ul{
+            li{
+                font-family: "montserrat Regular";
+                font-size: small;
+                font-weight: lighter;
+                line-height: 2;
+                list-style: none;
+            }
+        }
+    }
+}
+
+.redes{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footerFirma{
+    font-family: "montserrat Light";
+    font-size: small;
+}
