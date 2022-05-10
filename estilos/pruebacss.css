@@ -56,15 +56,6 @@ h5 {
 .section__Tip4 div {
   margin-top: 25px; }
 
-.section__Tip4 div iframe {
-  width: 560px;
-  height: 315px;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #178c38;
-  margin-top: 25px;
-  margin-bottom: 25px; }
-
 .section__Tip4 div .tituloParrafo {
   margin-top: 40px; }
 
@@ -74,24 +65,24 @@ h5 {
   font-size: medium;
   margin-top: 25px; }
 
-p {
+p, .contenedor__Productos__Mates div p {
   font-family: "montserrat Regular";
   font-size: medium;
   margin-top: 25px; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-.contenedor__Productos__Mates div p {
-  font-family: "montserrat Regular";
-  font-size: small; }
+.cards {
+  justify-items: center; }
 
 .contenedor__Productos__Mates div h5 {
   font-family: "montserrat Semibold";
   font-size: large;
-  color: black; }
+  color: black;
+  background-color: none;
+  background-image: none; }
+
+.contenedor__Productos__Mates div p {
+  margin-top: 0px;
+  margin-bottom: 15px; }
 
 .combos__Img {
   width: 400px;
@@ -227,9 +218,34 @@ footer div ul li {
   font-family: "montserrat Light";
   src: url(../font/Montserrat/static/Montserrat-Light.ttf); }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 html {
   font-size: 62.5%; }
 
 body {
   font-size: 2rem;
   font-family: "montserrat Regular", sans-serif; }
+
+/*declaro mapa*/
+.texto-principal {
+  color: #7bd389; }
+
+.texto-secundario {
+  color: #116940; }
+
+.texto-terciario {
+  color: green; }
+
+/*map-get*/
+.section__Tip4 div iframe {
+  width: 560px;
+  height: 315px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #116940;
+  margin-top: 25px;
+  margin-bottom: 25px; }

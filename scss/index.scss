@@ -3,6 +3,11 @@ $verde-oscuro: #178c38;
 $verde-fondo: #d7fada;
 $negro: #141414;
 
+@mixin tamaño ($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
 #titulo__Tips{
     animation-duration: 4s;
     animation-name: aparecer;
@@ -40,8 +45,7 @@ h5{
 .section__Tip1{
     div{
         img{
-            width: 200px;
-            height: 350px;
+            @include tamaño (200px,350px);
             border-radius: 25px;
         }
     }
@@ -58,8 +62,7 @@ h5{
 .section__Tip2{
     div{
         img{
-            width: 200px;
-            height: 350px;
+            @include tamaño (200px,350px);
             border-radius: 25px;
         }
     }
@@ -70,8 +73,7 @@ h5{
 }
 
 .imagen__Tips{
-    width: 250px;
-    height: 350px;
+    @include tamaño (250px,350px);
     border-radius: 25px;
     transition: height 2s;
 }
@@ -89,20 +91,6 @@ h5{
 .section__Tip4{
     div{
         margin-top: 25px;
-    }
-}
-
-.section__Tip4{
-    div{
-        iframe{
-            width: 560px;
-            height: 315px;
-            border-style: solid;
-            border-width: 5px;
-            border-color: $verde-oscuro;
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
     }
 }
 
