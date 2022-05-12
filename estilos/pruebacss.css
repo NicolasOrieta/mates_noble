@@ -152,13 +152,13 @@ textarea {
   margin-right: 100px; }
 
 .navpages {
-  background-color: #8de19b; }
+  background-color: #82b37e; }
 
 .nav__Links {
   font-family: "montserrat Semibold";
   list-style: none;
   text-decoration: none;
-  color: #8de19b;
+  color: #82b37e;
   text-shadow: 1px 1px 1px #f5f5f5;
   text-transform: uppercase;
   font-size: large;
@@ -172,15 +172,7 @@ textarea {
   font-size: small; }
 
 footer {
-  background-color: #8de19b; }
-
-.footerTitulos__Contacto {
-  font-family: "montserrat Semibold";
-  font-size: medium; }
-
-.footerTitulos__RRHH {
-  font-family: "montserrat Semibold";
-  font-size: medium; }
+  background-color: #82b37e; }
 
 footer div ul li {
   font-family: "montserrat Regular";
@@ -193,10 +185,6 @@ footer div ul li {
   width: 30px;
   height: 30px;
   margin-left: 10px; }
-
-.footerFirma {
-  font-family: "montserrat Light";
-  font-size: small; }
 
 @font-face {
   font-family: "montserrat Bold";
