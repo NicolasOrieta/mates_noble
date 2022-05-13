@@ -1,0 +1,63 @@
+@media only screen and (max-width: 992px) {
+    .nav-link {
+        font-size: 1rem;
+        padding: .7rem 1rem;
+    }
+
+    .bg-transparent {
+        background-color: black !important;
+        z-index: 1;
+    }
+
+    .logo {
+        background-image: url(../../images/Variable-1.png);
+        top: 1.2rem;
+    }
+
+    #nosotros_img {
+        margin: 5% 5% 5% 5%;
+        width: 45%;
+    }
+
+    #nosotros_texto {
+        margin: 5% 5% 5% 0%;
+        text-align: center;
+        width: 55%;
+
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+    #menu_bg {
+        height: 55rem;
+    }
+
+    #menu_lista {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        article {
+            background-color: opacity($color: #00000056);
+            height: 23rem;
+            width: 90%;
+            text-align: center;
+            margin-top: 7%;
+            margin-bottom: 0%;
+            padding: 2% 2%;
+            margin-left: 5%;
+        }
+    }
+
+    .menu_lista2 article {
+        padding: 5% 15%;
+
+        h2 {
+            font-size: 1.3rem;
+            color: #b39975;
+            margin: 0.5rem;
+        }
+    }
+}
+

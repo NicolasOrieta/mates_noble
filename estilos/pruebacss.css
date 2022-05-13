@@ -1,190 +1,62 @@
-#titulo__Tips {
-  animation-duration: 4s;
-  animation-name: aparecer;
-  animation-iteration-count: infinite; }
+/*.contenedor{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-template-areas: 
+        "nav nav nav"
+        "main main main"
+        "footer footer footer";
+    grid-gap: 0.5rem;
+}
 
-@keyframes aparecer {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
+nav{
+    background-color: red;
+    grid-area: nav;
+}
 
-h4 {
-  color: #178c38;
-  padding-top: 30px;
-  margin-left: 80px;
-  font-family: "montserrat Medium";
-  padding-bottom: 25px; }
+main{
+    background-color: blue;
+    grid-area: main;
+}
 
-h5 {
-  font-family: "montserrat Medium";
-  background-image: linear-gradient(to left, rgba(118, 118, 118, 0.396), rgba(17, 104, 17, 0.622));
-  color: #141414;
-  text-align: center; }
+footer{
+    background-color: yellow;
+    grid-area: footer;
+}
 
-.primerTip {
-  margin-bottom: 25px; }
+@media screen and (max-width: 576px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 0.5fr;
+        grid-template-areas: 
+            "nav"
+            "main"
+            "footer";
+    }
+}*/
+nav {
+  background-color: #6cb670; }
+  nav img {
+    margin-left: 25px;
+    width: 150px;
+    height: 150px; }
 
-.section__Tip1 div img {
-  width: 200px;
-  height: 350px;
-  border-radius: 25px; }
-
-.section__Tip1 div .tituloParrafo {
-  margin: 40px; }
-
-.section__Tip2 div img {
-  width: 200px;
-  height: 350px;
-  border-radius: 25px; }
-
-.section__Img {
-  background-color: #178c38; }
-
-.imagen__Tips {
-  width: 250px;
-  height: 350px;
-  border-radius: 25px;
-  transition: height 2s; }
-
-.imagen__Tips:hover {
-  height: 500px; }
-
-.section__Tip4 {
-  grid-area: sec4; }
-
-.section__Tip4 div {
-  margin-top: 25px; }
-
-.section__Tip4 div .tituloParrafo {
-  margin-top: 40px; }
-
-.tituloParrafo ul li {
-  list-style: none;
-  font-family: "montserrat Regular";
-  font-size: medium;
-  margin-top: 25px; }
-
-p, .contenedor__Productos__Mates div p {
-  font-family: "montserrat Regular";
-  font-size: medium;
-  margin-top: 25px; }
-
-.cards {
-  justify-items: center; }
-
-.contenedor__Productos__Mates div h5 {
-  font-family: "montserrat Semibold";
-  font-size: large;
-  color: black;
-  background-color: none;
-  background-image: none; }
-
-.contenedor__Productos__Mates div p {
-  margin-top: 0px;
-  margin-bottom: 15px; }
-
-.combos__Img {
-  width: 400px;
-  height: 650;
-  border-radius: 20px;
-  margin: 50px 50px 50px 50px; }
-
-.combos__Texto {
-  font-family: "montserrat Regular";
-  font-size: medium;
-  display: inline;
-  position: relative;
-  bottom: 500px; }
-
-.nosotrosSection {
-  background-color: #0e3e1495;
-  width: 450px;
-  height: 700px; }
-
-.nosotrosImg1 {
-  width: 350px;
-  height: 500px;
-  position: relative;
-  left: 45px;
-  top: 60px; }
-
-.nosotrosTitulo {
-  font-family: "montserrat Bold";
-  font-size: x-large;
-  color: #13501ada;
-  display: inline;
-  position: relative;
-  left: 900px;
-  bottom: 580px; }
-
-fieldset {
-  padding-left: 15px;
-  margin: 15px 15px 15px 20px;
-  width: 520px; }
-
-.fieldset__Titulo {
-  font-family: "montserrat Medium";
-  font-weight: bolder;
-  margin: 20px 10px 10px 10px; }
-
-div label {
-  font-family: "montserrat Regular";
-  font-weight: bold;
-  font-size: medium; }
-
-textarea {
-  width: 500px;
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-.fieldset__Boton {
-  background-color: #13501ada;
-  border-radius: 10px;
-  border-color: #19582000;
-  color: white;
-  margin-bottom: 15px;
-  width: 100px;
-  height: 30px; }
-
-.nav__Menu {
-  justify-content: end;
-  margin-right: 100px; }
-
-.navpages {
-  background-color: #82b37e; }
-
-.nav__Links {
-  font-family: "montserrat Semibold";
-  list-style: none;
-  text-decoration: none;
-  color: #82b37e;
-  text-shadow: 1px 1px 1px #f5f5f5;
-  text-transform: uppercase;
-  font-size: large;
-  padding-right: 25px; }
-
-.nav__Links a:hover {
-  color: #f5f5f5;
-  transition: 0.5s; }
-
-.nav__Submenu {
-  font-size: small; }
+main {
+  background-color: #b5cfc1; }
+  main .carousel_home img {
+    width: 400px;
+    height: 500px; }
 
 footer {
-  background-color: #82b37e; }
-
-footer div ul li {
-  font-family: "montserrat Regular";
-  font-size: small;
-  font-weight: lighter;
-  line-height: 2;
-  list-style: none; }
-
-.redes {
-  width: 30px;
-  height: 30px;
-  margin-left: 10px; }
+  background-color: #6cb670; }
+  footer img {
+    width: 150px;
+    height: 150px; }
+  footer .footer_redes img {
+    width: 50px;
+    height: 50px; }
 
 @font-face {
   font-family: "montserrat Bold";
@@ -206,34 +78,43 @@ footer div ul li {
   font-family: "montserrat Light";
   src: url(../font/Montserrat/static/Montserrat-Light.ttf); }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-html {
-  font-size: 62.5%; }
-
-body {
-  font-size: 2rem;
-  font-family: "montserrat Regular", sans-serif; }
-
-/*declaro mapa*/
-.texto-principal {
-  color: #7bd389; }
-
-.texto-secundario {
-  color: #116940; }
-
-.texto-terciario {
-  color: green; }
-
-/*map-get*/
-.section__Tip4 div iframe {
-  width: 560px;
-  height: 315px;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #116940;
-  margin-top: 25px;
-  margin-bottom: 25px; }
+@media only screen and (max-width: 992px) {
+  .nav-link {
+    font-size: 1rem;
+    padding: .7rem 1rem; }
+  .bg-transparent {
+    background-color: black !important;
+    z-index: 1; }
+  .logo {
+    background-image: url(../../images/Variable-1.png);
+    top: 1.2rem; }
+  #nosotros_img {
+    margin: 5% 5% 5% 5%;
+    width: 45%; }
+  #nosotros_texto {
+    margin: 5% 5% 5% 0%;
+    text-align: center;
+    width: 55%; }
+    #nosotros_texto p {
+      font-size: 0.9rem; }
+  #menu_bg {
+    height: 55rem; }
+  #menu_lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    #menu_lista article {
+      background-color: 0.33725;
+      height: 23rem;
+      width: 90%;
+      text-align: center;
+      margin-top: 7%;
+      margin-bottom: 0%;
+      padding: 2% 2%;
+      margin-left: 5%; }
+  .menu_lista2 article {
+    padding: 5% 15%; }
+    .menu_lista2 article h2 {
+      font-size: 1.3rem;
+      color: #b39975;
+      margin: 0.5rem; } }
