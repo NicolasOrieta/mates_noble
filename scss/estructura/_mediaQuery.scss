@@ -1,63 +1,268 @@
-@media only screen and (max-width: 992px) {
-    .nav-link {
-        font-size: 1rem;
-        padding: .7rem 1rem;
-    }
+@media only screen and (max-width: 992px){
 
     .bg-transparent {
-        background-color: black !important;
+        background-color: #67b174 !important;
         z-index: 1;
     }
 
-    .logo {
-        background-image: url(../../images/Variable-1.png);
-        top: 1.2rem;
+    .nav-link {
+        font-family: "montserrat Medium";
+        font-size: medium;
     }
 
-    #nosotros_img {
-        margin: 5% 5% 5% 5%;
-        width: 45%;
-    }
-
-    #nosotros_texto {
-        margin: 5% 5% 5% 0%;
-        text-align: center;
-        width: 55%;
-
-        p {
-            font-size: 0.9rem;
+    .main-index{
+    
+        #home_nosotros {
+    
+            #home_nosotros-img {
+    
+                img {
+                    margin-left: 25%;
+                }
+            }   
         }
     }
 
-    #menu_bg {
-        height: 55rem;
-    }
+    .contenedor-2-nos{
 
-    #menu_lista {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-
-        article {
-            background-color: opacity($color: #00000056);
-            height: 23rem;
-            width: 90%;
-            text-align: center;
-            margin-top: 7%;
-            margin-bottom: 0%;
-            padding: 2% 2%;
-            margin-left: 5%;
+        .cont{
+            height: 40rem;
         }
     }
 
-    .menu_lista2 article {
-        padding: 5% 15%;
+    .main-mate{
 
-        h2 {
-            font-size: 1.3rem;
-            color: #b39975;
-            margin: 0.5rem;
+        .carousel{
+            width: 300px !important;
+            height: 450px !important;
+            margin: 1rem 0 1rem 3rem;
+        }
+
+        .mate_texto{
+            margin-left: 3rem;
+            margin-top: 2rem;
+    
+            h1{
+                font-size: 1.4rem;
+            }
+    
+            h2{
+                font-size: 1.2rem;
+                margin-top: 2rem;
+            }
+    
+            p{
+                width: 30rem;
+            }
         }
     }
 }
 
+@media (max-width: 768px){
+
+    .main-index{
+
+        #home_nosotros {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+    
+            #home_nosotros-img {
+    
+                img {
+                    width: 280px;
+                    margin-left: 32%;
+                }
+            }
+        
+            #home_nosotros-texto {
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+        }
+    
+        #home_productos {
+
+            .home_productos-texto {
+                margin: 5% 5% 0% 5%
+            }
+        
+            .home_productos-productos {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 1.5rem;
+        
+                img {
+                    width: 200px;
+                    text-align: center;
+                    margin-top: 2%;
+                    margin-bottom: 5%;
+                }
+        
+                h3 {
+                    font-size: 1.2rem;
+                }
+            }
+
+            a {
+                padding: 0.4rem;
+                margin-bottom: 2rem;
+                margin-top: 1rem;
+            }
+        }
+
+        img{
+            width: 50%;
+        }
+    }
+
+    .contenedor-2-nos{
+
+        .cont{
+            height: 32rem;
+            padding: 2% 5%;
+            margin-top: 15%;
+        }
+    }
+
+    .main-mate{
+
+        .carousel{
+            margin: 1rem 0 1rem 1rem;
+        }
+
+        .mate_texto{
+            margin-left: 2rem;
+            margin-top: 4rem;
+    
+            h1{
+                font-size: 1.2rem;
+            }
+    
+            h2{
+                font-size: 1.1rem;
+            }
+    
+            p{
+                width: 25rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    
+    .parallax{
+        height: 400px;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .main-index{
+
+        #home_nosotros {
+
+            #home_nosotros-img {
+                
+                img {
+                    width: 300px;
+                    margin-left: 23%;
+                }
+            }
+        }
+
+        #home_productos {
+            display: flex;
+            flex-direction: column;
+    
+            .home_productos-productos {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 0;
+        
+                img {
+                    width: 260px;
+                    height: 340px;
+                    margin-top: 2%;
+                    margin-bottom: 5%;
+                    margin-left: 23%;
+                }
+        
+                h3 {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .home-galeria{
+            display: none
+        }
+    }
+
+    .main-contacto{
+    
+        .contacto-galeria{
+            display: none;
+        }
+    }
+
+    
+    .main-mate{
+        display: flex;
+        flex-direction: column;
+
+        .carousel{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            margin-left: 22%;
+        }
+
+        .mate_texto{
+            margin: 5% 10% 15% 10%;
+
+            h1{
+                font-size: 1.2rem;
+            }
+    
+            h2{
+                font-size: 1.1rem;
+            }
+    
+            p{
+                width: 29rem;
+            }
+        }
+    }
+
+    footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+
+        .footer_logo {
+            justify-self: center;
+
+            img{
+                width: 100px;
+                height: 100px;
+                margin: 4rem 0 0 0;
+            }
+        }
+
+        .footer_redes {
+            justify-self: center;
+
+            p{
+                padding-left: 10px;
+            }
+
+            img{
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+}
