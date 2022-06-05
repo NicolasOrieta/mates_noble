@@ -30,6 +30,50 @@
         }
     }
 
+    .main-productos{
+
+        .productos-contenedor-mates{
+
+            .section-1{
+                
+                .carousel{
+                    width: 200px;
+                    margin-bottom: 1rem;
+                }
+            }
+    
+            .section{
+    
+                img{
+                    width: 200px;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+
+        .productos-contenedor-bombillas{
+
+            .section{
+    
+                img{
+                    width: 200px;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+
+        .productos-contenedor-accesorios{
+
+            .section{
+    
+                img{
+                    width: 200px;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
     .main-mate{
 
         .carousel{
@@ -126,6 +170,47 @@
         }
     }
 
+    .main-productos{
+
+        .productos-contenedor-mates{
+            flex-wrap: wrap;
+
+            .section-1{
+
+                .carousel{
+                    width: 200px;
+                }
+            }
+    
+            .section{
+
+                img{
+                    width: 200px;
+                }
+            }
+        }
+
+        .productos-contenedor-bombillas{
+
+            .section{
+
+                img{
+                    width: 200px;
+                }
+            }
+        }
+
+        .productos-contenedor-accesorios{
+
+            .section{
+
+                img{
+                    width: 200px;
+                }
+            }
+        }
+    }
+
     .main-mate{
 
         .carousel{
@@ -162,6 +247,7 @@
     }
 
     .main-index{
+        padding-bottom: 20px;
 
         #home_nosotros {
 
@@ -209,7 +295,59 @@
         }
     }
 
+    .main-productos{
+
+        .productos-contenedor-mates{
+            display: flex;
+            flex-direction: column;
+            margin: 0 50px 0 50px;
+
+            .section-1{
+
+                .carousel{
+                    width: 250px;
+                    margin-left: 22%;
+                }
+            }
     
+            .section{
+
+                img{
+                    width: 250px;
+                    margin-left: 22%;
+                }
+            }
+        }
+
+        .productos-contenedor-bombillas{
+            display: flex;
+            flex-direction: column;
+            margin: 0 50px 0 50px;
+
+            .section{
+
+                img{
+                    width: 250px;
+                    margin-left: 22%;
+                }
+            }
+        }
+
+        .productos-contenedor-accesorios{
+            display: flex;
+            flex-direction: column;
+            margin: 0 50px 0 50px;
+
+            .section{
+
+                img{
+                    width: 250px;
+                    margin-left: 22%;
+                }
+            }
+        }
+    }
+
     .main-mate{
         display: flex;
         flex-direction: column;
@@ -224,11 +362,11 @@
             margin: 5% 10% 15% 10%;
 
             h1{
-                font-size: 1.2rem;
+                font-size: 1.4rem;
             }
     
             h2{
-                font-size: 1.1rem;
+                font-size: 1.2rem;
             }
     
             p{

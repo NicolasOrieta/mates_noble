@@ -129,7 +129,8 @@ p {
       width: 25%; }
 
 .main-productos {
-  background-color: #b5cfc1; }
+  background-color: #b5cfc1;
+  padding: 20px; }
   .main-productos h2 {
     font-family: "montserrat Semibold";
     font-size: 1.5rem;
@@ -137,62 +138,40 @@ p {
   .main-productos .productos-contenedor-mates, .main-productos .productos-contenedor-bombillas, .main-productos .productos-contenedor-accesorios {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     background-color: rgba(105, 153, 117, 0.612);
     border-radius: 15px;
-    margin-left: 1rem;
-    margin-right: 1rem; }
+    margin: 0 20px 0 20px; }
     .main-productos .productos-contenedor-mates .section-1, .main-productos .productos-contenedor-bombillas .section-1, .main-productos .productos-contenedor-accesorios .section-1 {
       display: flex;
       flex-direction: column; }
+      .main-productos .productos-contenedor-mates .section-1 h3, .main-productos .productos-contenedor-bombillas .section-1 h3, .main-productos .productos-contenedor-accesorios .section-1 h3 {
+        font-family: "montserrat Medium";
+        text-align: center;
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+        color: #1b1b1b !important;
+        font-size: 1.2rem; }
       .main-productos .productos-contenedor-mates .section-1 .carousel, .main-productos .productos-contenedor-bombillas .section-1 .carousel, .main-productos .productos-contenedor-accesorios .section-1 .carousel {
         width: 250px;
-        margin-left: 15%;
-        margin-top: 5%; }
+        margin-bottom: 2rem;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.11); }
         .main-productos .productos-contenedor-mates .section-1 .carousel .carousel-inner .carousel-item .w-100, .main-productos .productos-contenedor-bombillas .section-1 .carousel .carousel-inner .carousel-item .w-100, .main-productos .productos-contenedor-accesorios .section-1 .carousel .carousel-inner .carousel-item .w-100 {
           border-radius: 8px; }
-      .main-productos .productos-contenedor-mates .section-1 h3, .main-productos .productos-contenedor-bombillas .section-1 h3, .main-productos .productos-contenedor-accesorios .section-1 h3 {
-        font-family: "montserrat Semibold";
-        text-align: center;
-        padding-top: 15px; }
-    .main-productos .productos-contenedor-mates .section-2, .main-productos .productos-contenedor-bombillas .section-2, .main-productos .productos-contenedor-accesorios .section-2 {
+    .main-productos .productos-contenedor-mates .section, .main-productos .productos-contenedor-bombillas .section, .main-productos .productos-contenedor-accesorios .section {
       display: flex;
       flex-direction: column; }
-      .main-productos .productos-contenedor-mates .section-2 .carousel, .main-productos .productos-contenedor-bombillas .section-2 .carousel, .main-productos .productos-contenedor-accesorios .section-2 .carousel {
-        width: 250px;
-        margin-left: 15%;
-        margin-top: 5%; }
-        .main-productos .productos-contenedor-mates .section-2 .carousel .carousel-inner .carousel-item .w-100, .main-productos .productos-contenedor-bombillas .section-2 .carousel .carousel-inner .carousel-item .w-100, .main-productos .productos-contenedor-accesorios .section-2 .carousel .carousel-inner .carousel-item .w-100 {
-          border-radius: 8px; }
-      .main-productos .productos-contenedor-mates .section-2 h3, .main-productos .productos-contenedor-bombillas .section-2 h3, .main-productos .productos-contenedor-accesorios .section-2 h3 {
-        font-family: "montserrat Semibold";
+      .main-productos .productos-contenedor-mates .section h3, .main-productos .productos-contenedor-bombillas .section h3, .main-productos .productos-contenedor-accesorios .section h3 {
+        font-family: "montserrat Medium";
         text-align: center;
-        padding-top: 15px; }
-    .main-productos .productos-contenedor-mates .section-3, .main-productos .productos-contenedor-bombillas .section-3, .main-productos .productos-contenedor-accesorios .section-3 {
-      display: flex;
-      flex-direction: column; }
-      .main-productos .productos-contenedor-mates .section-3 .carousel, .main-productos .productos-contenedor-bombillas .section-3 .carousel, .main-productos .productos-contenedor-accesorios .section-3 .carousel {
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 1.2rem; }
+      .main-productos .productos-contenedor-mates .section img, .main-productos .productos-contenedor-bombillas .section img, .main-productos .productos-contenedor-accesorios .section img {
         width: 250px;
-        margin-left: 15%;
-        margin-top: 5%; }
-        .main-productos .productos-contenedor-mates .section-3 .carousel .carousel-inner .carousel-item .w-100, .main-productos .productos-contenedor-bombillas .section-3 .carousel .carousel-inner .carousel-item .w-100, .main-productos .productos-contenedor-accesorios .section-3 .carousel .carousel-inner .carousel-item .w-100 {
-          border-radius: 8px; }
-      .main-productos .productos-contenedor-mates .section-3 h3, .main-productos .productos-contenedor-bombillas .section-3 h3, .main-productos .productos-contenedor-accesorios .section-3 h3 {
-        font-family: "montserrat Semibold";
-        text-align: center;
-        padding-top: 15px; }
-    .main-productos .productos-contenedor-mates .section-4, .main-productos .productos-contenedor-bombillas .section-4, .main-productos .productos-contenedor-accesorios .section-4 {
-      display: flex;
-      flex-direction: column; }
-      .main-productos .productos-contenedor-mates .section-4 .carousel, .main-productos .productos-contenedor-bombillas .section-4 .carousel, .main-productos .productos-contenedor-accesorios .section-4 .carousel {
-        width: 250px;
-        margin-left: 15%;
-        margin-top: 5%; }
-        .main-productos .productos-contenedor-mates .section-4 .carousel .carousel-inner .carousel-item .w-100, .main-productos .productos-contenedor-bombillas .section-4 .carousel .carousel-inner .carousel-item .w-100, .main-productos .productos-contenedor-accesorios .section-4 .carousel .carousel-inner .carousel-item .w-100 {
-          border-radius: 8px; }
-      .main-productos .productos-contenedor-mates .section-4 h3, .main-productos .productos-contenedor-bombillas .section-4 h3, .main-productos .productos-contenedor-accesorios .section-4 h3 {
-        font-family: "montserrat Semibold";
-        text-align: center;
-        padding-top: 15px; }
+        border-radius: 8px;
+        margin-bottom: 2rem;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.11); }
 
 .parallax-nos {
   background: #fff fixed no-repeat 50% 50%;
@@ -287,18 +266,18 @@ p {
   .main-mate .carousel {
     width: 300px !important;
     height: 450px !important;
-    margin: 2rem 0 1rem 9rem; }
+    margin: 2rem 0 1rem 8rem; }
     .main-mate .carousel .carousel-inner .carousel-item .w-100 {
       border-radius: 8px; }
   .main-mate .mate_texto {
-    margin-left: 5rem;
+    margin-left: 8rem;
     margin-top: 4rem; }
     .main-mate .mate_texto h1 {
       font-family: "montserrat Semibold";
-      font-size: 1.6rem; }
+      font-size: 1.4rem; }
     .main-mate .mate_texto h2 {
       font-family: "montserrat Medium";
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       margin-top: 2rem; }
     .main-mate .mate_texto p {
       font-family: "montserrat Light";
@@ -415,6 +394,18 @@ footer {
     margin-left: 25%; }
   .contenedor-2-nos .cont {
     height: 40rem; }
+  .main-productos .productos-contenedor-mates .section-1 .carousel {
+    width: 200px;
+    margin-bottom: 1rem; }
+  .main-productos .productos-contenedor-mates .section img {
+    width: 200px;
+    margin-bottom: 1rem; }
+  .main-productos .productos-contenedor-bombillas .section img {
+    width: 200px;
+    margin-bottom: 1rem; }
+  .main-productos .productos-contenedor-accesorios .section img {
+    width: 200px;
+    margin-bottom: 1rem; }
   .main-mate .carousel {
     width: 300px !important;
     height: 450px !important;
@@ -465,6 +456,16 @@ footer {
     height: 32rem;
     padding: 2% 5%;
     margin-top: 15%; }
+  .main-productos .productos-contenedor-mates {
+    flex-wrap: wrap; }
+    .main-productos .productos-contenedor-mates .section-1 .carousel {
+      width: 200px; }
+    .main-productos .productos-contenedor-mates .section img {
+      width: 200px; }
+  .main-productos .productos-contenedor-bombillas .section img {
+    width: 200px; }
+  .main-productos .productos-contenedor-accesorios .section img {
+    width: 200px; }
   .main-mate .carousel {
     margin: 1rem 0 1rem 1rem; }
   .main-mate .mate_texto {
@@ -482,28 +483,54 @@ footer {
     height: 400px; }
   p {
     font-size: 1rem; }
-  .main-index #home_nosotros #home_nosotros-img img {
-    width: 300px;
-    margin-left: 23%; }
-  .main-index #home_productos {
-    display: flex;
-    flex-direction: column; }
-    .main-index #home_productos .home_productos-productos {
+  .main-index {
+    padding-bottom: 20px; }
+    .main-index #home_nosotros #home_nosotros-img img {
+      width: 300px;
+      margin-left: 23%; }
+    .main-index #home_productos {
       display: flex;
-      flex-direction: column;
-      margin-bottom: 0; }
-      .main-index #home_productos .home_productos-productos img {
-        width: 260px;
-        height: 340px;
-        margin-top: 2%;
-        margin-bottom: 5%;
-        margin-left: 23%; }
-      .main-index #home_productos .home_productos-productos h3 {
-        font-size: 1.2rem; }
-  .main-index .home-galeria {
-    display: none; }
+      flex-direction: column; }
+      .main-index #home_productos .home_productos-productos {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0; }
+        .main-index #home_productos .home_productos-productos img {
+          width: 260px;
+          height: 340px;
+          margin-top: 2%;
+          margin-bottom: 5%;
+          margin-left: 23%; }
+        .main-index #home_productos .home_productos-productos h3 {
+          font-size: 1.2rem; }
+    .main-index .home-galeria {
+      display: none; }
   .main-contacto .contacto-galeria {
     display: none; }
+  .main-productos .productos-contenedor-mates {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 0 50px; }
+    .main-productos .productos-contenedor-mates .section-1 .carousel {
+      width: 250px;
+      margin-left: 22%; }
+    .main-productos .productos-contenedor-mates .section img {
+      width: 250px;
+      margin-left: 22%; }
+  .main-productos .productos-contenedor-bombillas {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 0 50px; }
+    .main-productos .productos-contenedor-bombillas .section img {
+      width: 250px;
+      margin-left: 22%; }
+  .main-productos .productos-contenedor-accesorios {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 0 50px; }
+    .main-productos .productos-contenedor-accesorios .section img {
+      width: 250px;
+      margin-left: 22%; }
   .main-mate {
     display: flex;
     flex-direction: column; }
@@ -514,9 +541,9 @@ footer {
     .main-mate .mate_texto {
       margin: 5% 10% 15% 10%; }
       .main-mate .mate_texto h1 {
-        font-size: 1.2rem; }
+        font-size: 1.4rem; }
       .main-mate .mate_texto h2 {
-        font-size: 1.1rem; }
+        font-size: 1.2rem; }
       .main-mate .mate_texto p {
         width: 29rem; }
   footer {
