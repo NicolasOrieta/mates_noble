@@ -1,0 +1,69 @@
+.main-productos{
+    background-color: rgb(181, 207, 193);
+    padding: 20px;
+
+    h2{
+        font-family: "montserrat Semibold";
+        font-size: 1.5rem;
+        padding: 25px 0px 20px 35px;
+    }
+    
+    .productos-contenedor-mates, .productos-contenedor-bombillas, .productos-contenedor-accesorios{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgba(105, 153, 117, 0.612);
+        border-radius: 15px;
+        margin: 0 20px 0 20px;
+
+        .section-1{
+            display: flex;
+            flex-direction: column;
+
+            h3{
+                font-family: "montserrat Medium";
+                text-align: center;
+                padding-top: 2rem;
+                margin-bottom: 1rem;
+                color: rgb(27, 27, 27) !important;
+                font-size: 1.2rem;
+            }
+
+            .carousel{
+                width: 250px;
+                margin-bottom: 2rem;
+                box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.11);
+        
+                .carousel-inner{
+        
+                    .carousel-item{
+            
+                        .w-100{
+                            border-radius: 8px;           
+                        }
+                    }
+                }
+            }
+        }
+    
+        .section{
+            display: flex;
+            flex-direction: column;
+            
+            h3{
+                font-family: "montserrat Medium";
+                text-align: center;
+                padding-top: 2rem;
+                margin-bottom: 1rem;
+                font-size: 1.2rem;
+            }
+
+            img{
+                width: 250px;
+                border-radius: 8px;
+                margin-bottom: 2rem;
+                box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.11);
+            }
+        }
+    }
+}
